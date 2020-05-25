@@ -1,0 +1,28 @@
+.nav {
+    background-color: #db4d4d;
+    width: 100%;
+    height: 40px;
+}
+
+a {
+    color: #ffffff;
+    font-style: normal;
+    font-family: Optima, sans-serif;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-decoration: none; 
+    text-align: center;
+    float: left;
+}
+
+a.active {
+    background-color: #5c0614;
+}
+
+a:hover {
+    background-color: #d4babe;
+    color: #000000;
+    transition: 40ms ease-in-out;
+}
